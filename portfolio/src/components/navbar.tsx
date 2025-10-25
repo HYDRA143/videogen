@@ -2,9 +2,9 @@
 
 const navbar = () => {
   return (
-    <div className="flex h-12 justify-between  ">
+    <div className="flex h-16 justify-between  ">
       <div className="h-15">
-          <div>
+           <div>
             <img className="rounded-full w-15 h-15 justify-center content-center object-fill" src="https://images.unsplash.com/photo-1567446537708-ac4aa75c9c28?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" alt="img" /></div>
            </div>
       
