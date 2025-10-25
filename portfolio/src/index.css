@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Reset layout and remove page scrollbar so components won't show an inner scroll */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide browser scrollbars for the page (content should use internal scroll areas if needed) */
+body {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: hide scrollbars for any overflow-hidden containers (webkit) */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: match app background (Tailwind bg-gray-600) so there's no visual seam */
+body {
+  min-height: 100%;
+  background-color: #4b5563;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
